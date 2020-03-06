@@ -1,0 +1,186 @@
+body {
+    
+    font-family: "Times new roman";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    width: 1170px;
+    padding: 0px 15px;
+    margin: 0px auto;
+  }
+  
+  .top {
+    padding: 180px 0 100px 0;
+    background-image: url("333.png");
+    background-size: cover;
+    color:#fff;
+    text-align: center;
+  }
+  
+  .top h1 {
+    
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .top p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+  }
+  
+  .b-wrap {
+    margin: 20px 0;
+  }
+  
+  .b-wrap p {
+    margin: 10px 0;
+  }
+  
+  .signup {
+    background-color: #239b76;
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+  }
+  
+  .twitter {
+    background-color: #55acee;
+  }
+  
+  .bt {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+  }
+  
+  .bt:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color:rgb(160, 9, 9);
+  }
+  
+  .logo {
+    width: 124px;
+    margin-top: 20px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+  
+    transition:all 0.5s;
+  }
+  
+  .header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .header-right a {
+    line-height:65px;
+    padding-left:25px;
+    padding-right:25px;
+    color:#fff;
+  }
+  .container h2{
+
+    font-size:36px;
+    color:red;
+
+  }
+  .lesson-wrapper {
+    height: 900px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+   
+    text-align: center
+  }
+  .abc{
+      border-radius:200px;
+    
+    
+  }
+  .a2{float: left;}
+  
+            
+
+  .heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .lesson {
+    float: left;
+    width: 25%;
+  }
+
+  
+ 
+  
+  .lesson-icon {
+    position: relative;
+  }
+  
+ 
+  .lesson-icon p {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    color:black;
+    font-size:25px;
+    text-align:center;
+  }
+  
+
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #b3aeb5;
+  }
+
+  .footer {
+    background-color:green;
+    color: #fff;
+    height:30px;
+    padding:40px;
+    
+  }
+  
+  .footer-logo {
+    float: left;
+    font-size: 32px;
+  }
+  
+  .footer-list {
+    float:left;
+  }
+
+  
+  

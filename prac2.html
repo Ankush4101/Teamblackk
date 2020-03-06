@@ -1,0 +1,58 @@
+<html>
+
+    <div class="back"></div>
+    <div class="front"></div>
+
+    <style type="text/css">
+       
+       body {
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+  }
+  .back {
+    background:url("1.jpg");
+    background-size: cover;
+    position: absolute;
+    top:-1vh;
+    left:-1vw;
+    width:102vw;
+    height:102vh;
+  }
+  .front {
+    background: url("2.png");
+    background-size: cover;
+    position: absolute;
+    bottom: -1vh;
+    right: 3vw;
+    width: 50vw;
+    padding-bottom: 30%;
+  }
+  .back, .front {
+    filter: blur(4px);
+    transition: filter 1s;
+  }
+  .back:hover, .front:hover {
+    filter: blur(0px);
+  }
+  
+    </style>
+
+<script type="text/javascript">
+    let focusBack = 50;
+    let focusFront = 1000;
+    
+    window.addEventListener('mousemove', e => {
+      let blurBack   = Math.abs(focusBack-e.clientY)/150;
+      let blurFront  = Math.abs(focusFront-e.clientY)/200;  
+    
+    
+      editCSS.innerHTML = '.back { filter: blur('+ (blurBack) +'px); '  +'transform: scale('+ (1.00+blurFront/300) +'); }' +'.front{ filter: blur('+ (blurFront) +'px); }' ;
+    
+      </script>
+    <body>
+        </body>
+        
+        
+    
+</html>
